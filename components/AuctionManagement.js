@@ -10,7 +10,6 @@ class AuctionManagement extends Component {
     };
 
     manageAuction = async (action) => {
-        console.log(action);
         try {
             const auction = Auction(this.props.address);
             const accounts = await web3.eth.getAccounts();
