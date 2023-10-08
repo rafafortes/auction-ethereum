@@ -22,8 +22,7 @@ npm install --legacy-peer-deps
 
 ## Compilation
 
-cd ethereum
-node compile.js
+cd ethereum && node compile.js
 
 ## Tests
 
@@ -31,8 +30,7 @@ npm run test
 
 ## Deploy
 
-cd ethereum
-node deploy.js
+cd ethereum && node deploy.js
 
 After deploying, copy the contract address and paste into the factory.js file.
 
